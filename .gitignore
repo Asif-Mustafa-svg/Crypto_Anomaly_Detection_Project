@@ -1,0 +1,79 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pycache
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+env/
+venv/
+*.sqlite3
+
+# Virtual environments
+crypto_venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+log.txt
+
+# Cache
+.cache/
+.pytest_cache/
+cache/
+*.DS_Store
+
+# Byte-compiled / compiled stuff
+*.so
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+history/
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+
+# -------------------------
+# Project-specific
+# -------------------------
+
+# State files created by your app
+state/state.json
+
+# Temporary json or data dumps
+*.json
+!state/       # keep the directory, not the file
+
+# Local credentials (if any)
+*.env
+.env
+
+# -------------------------
+# Git / Other
+# -------------------------
+*.swp
+*.swo

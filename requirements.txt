@@ -1,0 +1,8 @@
+websocket-client==1.6.1
+pandas
+numpy
+scikit-learn
+scipy
+streamlit
+python-dotenv
+uvicorn
